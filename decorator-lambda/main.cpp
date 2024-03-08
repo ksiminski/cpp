@@ -13,7 +13,7 @@
 
 int main()
 {
-   /** [PL] Prosta lambda dufileująca przekazaną wartość.
+   /** [PL] Prosta lambda duplikująca przekazaną wartość.
     *  [EN] A simple lambda doubling the passed value.
     * */
    auto two_times = [] (const int a) 
