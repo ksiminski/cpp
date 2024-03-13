@@ -24,3 +24,9 @@ dynamic and static polymorphism
 [EN] The same problem solved with dynamic polimorphism (virtual method in a class hierarchy) and static polimorphism (class templates).
 
 
+matrix traversal
+----------------
+[PL] Porównanie czasu zsumowania elementów macierzy przy przechodzeniu wierszami i kolumnami.
+[EN] Comparision of element summing with row-wise and column-wise matrix traversal.
+
+
