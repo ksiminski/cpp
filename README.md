@@ -26,7 +26,8 @@ dynamic and static polymorphism
 
 matrix traversal
 ----------------
-[PL] Porównanie czasu zsumowania elementów macierzy przy przechodzeniu wierszami i kolumnami.
+[PL] Porównanie czasu zsumowania elementów macierzy przy przechodzeniu wierszami i kolumnami.  
+
 [EN] Comparision of element summing with row-wise and column-wise matrix traversal.
 
 
