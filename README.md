@@ -24,10 +24,23 @@ dynamic and static polymorphism
 [EN] The same problem solved with dynamic polimorphism (virtual method in a class hierarchy) and static polimorphism (class templates).
 
 
+hashing
+-------
+[PL] Przykłady haszowania.
+
+[EN] Examples of hashing.
+
+
 matrix traversal
 ----------------
 [PL] Porównanie czasu zsumowania elementów macierzy przy przechodzeniu wierszami i kolumnami.  
 
 [EN] Comparision of element summing with row-wise and column-wise matrix traversal.
 
+
+ranges and views
+----------------
+[PL] Trochę przykładów zakresów i widoków (ranges and views). 
+
+[EN] Some examples of ranges and views
 
