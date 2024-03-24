@@ -5,18 +5,16 @@
  *  */
 
 
-#include <iostream>
-#include <fstream>
-#include <vector>
+#include <algorithm>
 #include <concepts>
-#include <ranges>
+#include <iostream>
 #include <numeric>
+#include <ranges>
 #include <string>
 #include <string_view>
-#include <algorithm>
+#include <vector>
 
 #define debug(x)   std::cout << "(" << __LINE__ << ") " << #x << " == " << x << std::endl;
-
 
 void print (auto && container)
 {
@@ -35,10 +33,15 @@ concept is_container = requires (T t)
 };
 
 
-/** [PL] Szablon operatora << ograniczony konceptem. 
- *  [EN] The template of the operator << constrained with a concept. */
+/** [PL] Koncept dla std::string_view. 
+ *  [EN] The concept for a std::string_view.  */
+template <typename T>
+concept is_string_like = std::is_convertible_v<T, std::string_view>;
+
+/** [PL] Szablon operatora << ograniczony konceptami. 
+ *  [EN] The template of the operator << constrained with concepts. */
 template <class T>
-requires is_container<T>
+requires is_container<T> and (not is_string_like<T>)
 std::ostream & operator << (std::ostream & sos, const T & container)
 {
    sos << "[ ";
@@ -55,12 +58,14 @@ int main()
    std::iota(ints.begin(), ints.end(), 1) ;
    print (ints);
    std::cout << ints << std::endl;
+   std::cout << std::endl;
 
    // [PL] filtrowanie
    // [EN] filtering
-   
+
+   std::cout << "[PL] filtrowanie | [EN] filtering" << std::endl;
+
    auto range = std::views::all(ints);
-   // std::cout << range << std::endl;
    print(range);
 
    auto divisible_3 = [] (const auto & w) { return w % 3 == 0;};
@@ -85,6 +90,13 @@ int main()
    std::ranges::sort(range);
    print (range);
 
+   std::cout << std::endl;
+
+   // [PL] zip 
+   // [EN] zip
+
+   std::cout << "[PL] zip | [EN] zip" << std::endl;
+
    std::vector<char> lower ('z' - 'a' + 1);
    std::vector<char> upper ('z' - 'a' + 1);
    
@@ -100,6 +112,13 @@ int main()
       std::cout << l << " <--> " << g << std::endl;
    }
 
+   std::cout << std::endl;
+
+   // [PL] podział napisu  
+   // [EN] string split 
+
+   std::cout << "[PL] podział napisu | [EN] string split" << std::endl;
+   
    using std::operator""sv;
    constexpr auto jontek {"Szumia jodly na gor szczycie."sv};
    constexpr auto delimiter {" "sv};
