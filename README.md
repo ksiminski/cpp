@@ -37,6 +37,12 @@ matrix traversal
 
 [EN] Comparision of element summing with row-wise and column-wise matrix traversal.
 
+promise and future
+------------------
+[PL] Przykład użycia obietnicy (`std::promise`) i przyszłości (`std::future`).
+
+[EN] An example of an `std::promise` and an `std::future`.
+
 
 ranges and views
 ----------------
