@@ -27,6 +27,7 @@ filesystem
 ----------
 
 [PL] Przykład użycia biblioteki `std::filesystem`.
+
 [EN] An example of application of the `std::filesystem` library.
 
 hashing
