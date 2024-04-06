@@ -23,6 +23,11 @@ dynamic and static polymorphism
 
 [EN] The same problem solved with dynamic polimorphism (virtual method in a class hierarchy) and static polimorphism (class templates).
 
+filesystem
+----------
+
+[PL] Przykład użycia biblioteki `std::filesystem`.
+[EN] An example of application of the `std::filesystem` library.
 
 hashing
 -------
