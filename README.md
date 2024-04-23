@@ -43,6 +43,14 @@ matrix traversal
 
 [EN] Comparision of element summing with row-wise and column-wise matrix traversal.
 
+
+optional 
+--------
+[PL] Przykład użycia `std::optional`. 
+
+[EN] An example of the `std::optional`.
+
+
 promise and future
 ------------------
 [PL] Przykład użycia obietnicy (`std::promise`) i przyszłości (`std::future`).
