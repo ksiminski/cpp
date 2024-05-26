@@ -38,13 +38,17 @@ hashing
 
 [EN] Examples of hashing.
 
-
 matrix traversal
 ----------------
 [PL] Porównanie czasu zsumowania elementów macierzy przy przechodzeniu wierszami i kolumnami.  
 
 [EN] Comparision of element summing with row-wise and column-wise matrix traversal.
 
+optional 
+--------
+[PL] Przykład użycia `std::optional`. 
+
+[EN] An example of the `std::optional`.
 
 promise and future
 ------------------
@@ -59,9 +63,9 @@ ranges and views
 
 [EN] Some examples of ranges and views
 
-
 ratio
 -----
 [PL] Metaprogramowanie: przykład użycia biblioteki arytmetyki stosunków liczb całkowitych `std::ratio`. 
 
 [EN] Metaprogramming: an example of application of compile-time rational arithmetic library `std::ratio`.
+
