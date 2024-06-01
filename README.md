@@ -38,6 +38,13 @@ hashing
 
 [EN] Examples of hashing.
 
+literals
+--------
+
+[PL] Przykład literałów w bibliotekach `chrono`, `string`, `string_view`, `complex` i własnych literałów.
+
+[EN] An example of literals in the libraries `chrono`, `string`, `string_view`, `complex`, and user-defined literals.
+
 matrix traversal
 ----------------
 [PL] Porównanie czasu zsumowania elementów macierzy przy przechodzeniu wierszami i kolumnami.  
