@@ -78,6 +78,6 @@ regex
 -----
 [PL] Przykład użycia wyrażeń regularnych (`std::regex`).
 
-[EN] An example of application of regular expressions (`std::regex`).
+[EN] An example of usage of regular expressions (`std::regex`).
 
 
