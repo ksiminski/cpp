@@ -18,7 +18,6 @@ decorator-lambda
 
 [EN] Lambda function wrapping another function.
 
-
 dynamic and static polymorphism 
 -------------------------------
 [PL] Ten sam problem rozwiązny za pomocą polimorfizmu dynamicznego (wirtualne metody w hierarchii klas) i polimorfizmu statycznego (szablony klas). 
@@ -63,7 +62,6 @@ promise and future
 
 [EN] An example of an `std::promise` and an `std::future`.
 
-
 ranges and views
 ----------------
 [PL] Trochę przykładów zakresów i widoków (ranges and views). 
@@ -75,4 +73,11 @@ ratio
 [PL] Metaprogramowanie: przykład użycia biblioteki arytmetyki stosunków liczb całkowitych `std::ratio`. 
 
 [EN] Metaprogramming: an example of application of compile-time rational arithmetic library `std::ratio`.
+
+regex
+-----
+[PL] Przykład użycia wyrażeń regularnych (`std::regex`).
+
+[EN] An example of application of regular expressions (`std::regex`).
+
 
