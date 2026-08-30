@@ -80,4 +80,10 @@ regex
 
 [EN] An example of usage of regular expressions (`std::regex`).
 
+variant and visit
+-----------------
+[PL] Przykład użycia `std::variant` i `std::visit`.
+
+[EN] An example of usage of `std::variant` and `std::visit`.
+
 
