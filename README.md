@@ -3,10 +3,12 @@
 concepts
 --------
 [PL] przykład użycia konceptów
+
      Implementacja operatora << dla różnych kontenerów. 
      Koncepty precyzują, który szablon będzie użyty dla klasy-argumentu.
 
 [EN] example of application of concepts
+
      Implementation of the operator << for different containers.
      The concepts specify which template will be used for an argument class.
 
@@ -15,7 +17,6 @@ decorator-lambda
 [PL] Funkcja lambda opakowująca inną przekazaną funkcję. 
 
 [EN] Lambda function wrapping another function.
-
 
 dynamic and static polymorphism 
 -------------------------------
@@ -36,6 +37,12 @@ hashing
 
 [EN] Examples of hashing.
 
+literals
+--------
+
+[PL] Przykład literałów w bibliotekach `chrono`, `string`, `string_view`, `complex` i własnych literałów.
+
+[EN] An example of literals in the libraries `chrono`, `string`, `string_view`, `complex`, and user-defined literals.
 
 matrix traversal
 ----------------
@@ -43,13 +50,11 @@ matrix traversal
 
 [EN] Comparision of element summing with row-wise and column-wise matrix traversal.
 
-
 optional 
 --------
 [PL] Przykład użycia `std::optional`. 
 
 [EN] An example of the `std::optional`.
-
 
 promise and future
 ------------------
@@ -57,10 +62,22 @@ promise and future
 
 [EN] An example of an `std::promise` and an `std::future`.
 
-
 ranges and views
 ----------------
 [PL] Trochę przykładów zakresów i widoków (ranges and views). 
 
 [EN] Some examples of ranges and views
+
+ratio
+-----
+[PL] Metaprogramowanie: przykład użycia biblioteki arytmetyki stosunków liczb całkowitych `std::ratio`. 
+
+[EN] Metaprogramming: an example of application of compile-time rational arithmetic library `std::ratio`.
+
+regex
+-----
+[PL] Przykład użycia wyrażeń regularnych (`std::regex`).
+
+[EN] An example of usage of regular expressions (`std::regex`).
+
 
