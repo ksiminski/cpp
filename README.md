@@ -12,6 +12,41 @@ concepts
      Implementation of the operator << for different containers.
      The concepts specify which template will be used for an argument class.
 
+
+coroutines
+----------
+[PL] Przykłady użycia korutyn.
+     Przykłady `co_return`, `co_yield` i `co_await` mają pełną implementację własnego typu `promise_type`.
+     Przykład `generator` korzysta z gotowego typu `std::generator` (C++23).
+
+[EN] Examples of usage of coroutines.
+     Examples of `co_return`, `co_yield` and `co_await` have a full implementation of their own `promise_type`.
+     The `generator` example uses the ready-made type `std::generator` (C++23).
+
+### coroutine-co_yield
+
+[PL] Przykład generowania liczb pierwszych przy użyciu korutyn i `co_yield`.
+
+[EN] An example of generating prime numbers using coroutines and `co_yield`.
+
+### coroutine-co_return 
+
+[PL] Przykład użycia korutyn i `co_return` do zwracania wartości z funkcji asynchronicznej.
+
+[EN] An example of using coroutines and `co_return` to return a value from an asynchronous function.
+
+### coroutine-co_await 
+
+[PL] Rozwinięcie przykładu z `co_return` o `co_await` do oczekiwania na zakończenie funkcji asynchronicznej (wątku).
+
+[EN] An extension of the example with `co_return` with `co_await` to wait for the completion of an asynchronous function (thread).
+
+### coroutine-generator
+
+[PL] Przykład generatora liczb z wykorzystaniem `std::generator` (C++23) i `co_yield`.
+
+[EN] An example of a number generator using `std::generator` (C++23) and `co_yield`.
+
 decorator-lambda
 ----------------
 [PL] Funkcja lambda opakowująca inną przekazaną funkcję. 
