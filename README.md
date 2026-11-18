@@ -1,5 +1,11 @@
 # [PL] ciekawostki, nowinki w C++ [EN] fun facts, novelties in C++
 
+any 
+---
+[PL] Przykład użycia `std::any`. Porównaj z przykładem `variant and visit`.
+
+[EN] An example of usage of `std::any`. Compare with the example `variant and visit`.
+
 concepts
 --------
 [PL] przykład użycia konceptów
@@ -11,7 +17,6 @@ concepts
 
      Implementation of the operator << for different containers.
      The concepts specify which template will be used for an argument class.
-
 
 coroutines
 ----------
@@ -117,8 +122,8 @@ regex
 
 variant and visit
 -----------------
-[PL] Przykład użycia `std::variant` i `std::visit`.
+[PL] Przykład użycia `std::variant` i `std::visit`. Porównaj z przykładem `any`.
 
-[EN] An example of usage of `std::variant` and `std::visit`.
+[EN] An example of usage of `std::variant` and `std::visit`. Compare with the example `any`.
 
 
