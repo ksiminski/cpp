@@ -86,6 +86,35 @@ hashing
 
 [EN] Examples of hashing.
 
+inheritance vs composition
+--------------------------
+
+[PL] Ten sam problem rozwiązany przez dziedziczenie i przez kompozycję. 
+
+Dziedzieczenie:
+Głęboka hierarchia klas sprawia pewne problemy, np. przy wielu metodach
+trudno może być znaleźć, która implementacja metody jest wywoływana.
+
+Kompozycja: 
+Zamiast implementować metody w klasach pochodnych, jest jedna klasa, która 
+jest zbudowana z obiektów implementujących odpowiednią wersję metody.
+W poniższych przykładzie zastosowane jest odwrócenie zależności
+i dostęp do składowych poprzez interfejsy. Zamiast dziedziczenia
+mamy kompozycję i realizację interfejsów. 
+
+[EN] The same problem solved using inheritance and composition.
+
+Inheritance:
+A deep class hierarchy causes certain issues; for example, with many methods,
+it can be difficult to find which implementation of a method is being called.
+
+Composition:
+Instead of implementing methods in derived classes, there is a single class
+built from objects that implement the appropriate version of the method.
+The example below uses dependency inversion and accesses members
+through interfaces. Instead of inheritance, we have composition
+and interface implementation.
+
 literals
 --------
 
