@@ -10,23 +10,25 @@ concepts
 --------
 [PL] przykład użycia konceptów
 
-     Implementacja operatora << dla różnych kontenerów. 
-     Koncepty precyzują, który szablon będzie użyty dla klasy-argumentu.
+Implementacja operatora << dla różnych kontenerów. 
+Koncepty precyzują, który szablon będzie użyty dla klasy-argumentu.
 
 [EN] example of application of concepts
 
-     Implementation of the operator << for different containers.
-     The concepts specify which template will be used for an argument class.
+Implementation of the operator << for different containers.
+The concepts specify which template will be used for an argument class.
 
 coroutines
 ----------
 [PL] Przykłady użycia korutyn.
-     Przykłady `co_return`, `co_yield` i `co_await` mają pełną implementację własnego typu `promise_type`.
-     Przykład `generator` korzysta z gotowego typu `std::generator` (C++23).
+
+Przykłady `co_return`, `co_yield` i `co_await` mają pełną implementację własnego typu `promise_type`.
+Przykład `generator` korzysta z gotowego typu `std::generator` (C++23).
 
 [EN] Examples of usage of coroutines.
-     Examples of `co_return`, `co_yield` and `co_await` have a full implementation of their own `promise_type`.
-     The `generator` example uses the ready-made type `std::generator` (C++23).
+
+Examples of `co_return`, `co_yield` and `co_await` have a full implementation of their own `promise_type`.
+The `generator` example uses the ready-made type `std::generator` (C++23).
 
 ### coroutine-co_yield
 
