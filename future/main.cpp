@@ -13,10 +13,10 @@
 ////////////////////////////////////
 // [PL] Zwraca wartość losową.
 // [EN] Returns a random value.
-std::size_t random_value ()
+std::size_t get_random_value ()
 {
    const std::size_t mini {  100 };  
-   const std::size_t Maxi { 2000 }; 
+   const std::size_t Maxi { 5000 }; 
 
    static std::default_random_engine engine (std::chrono::system_clock::now().time_since_epoch().count());
    static std::uniform_int_distribution<std::size_t> distribution (mini, Maxi);
@@ -25,12 +25,11 @@ std::size_t random_value ()
 
 int long_operation (int n)
 {
-   auto get_random_value = random_value();
-   std::this_thread::sleep_for(std::chrono::milliseconds(get_random_value)); 
+   auto random_value = get_random_value();
+   std::this_thread::sleep_for(std::chrono::milliseconds(random_value)); 
 
    return n * n; 
 }
-
 
 ////////////////////////////////////
 int main()
@@ -61,10 +60,11 @@ int main()
 
    std::cout << "================================" << std::endl;
    {
-      std::cout << "[PL] Uruchamiam dlugotrwale operacje w tle..." << std::endl;
-      std::cout << "[EN] I am running long operations in the background..." << std::endl;
+      int parameter = 15;
 
-      int parameter = 10;
+      std::cout << "[PL] Uruchamiam " << parameter << " dlugotrwalych operacji w tle..." << std::endl;
+      std::cout << "[EN] I am running " << parameter << " long operations in the background..." << std::endl;
+
       std::vector<std::future<int>> futures;
       int number_of_operations = 5;
       for (int i = 0; i < number_of_operations; ++i)
