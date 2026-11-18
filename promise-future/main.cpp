@@ -75,7 +75,7 @@ int main()
       results.push_back(my_futures[i].get());
    }
 
-   // [PL] Wypisz wyniki. [EN] Printd the results.
+   // [PL] Wypisz wyniki. [EN] Print the results.
    std::cout << "[PL] wyniki | [EN] results" << std::endl;
    for (std::size_t i = 0; i < number_of_threads; ++i)
    {
