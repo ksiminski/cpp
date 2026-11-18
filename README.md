@@ -73,6 +73,13 @@ filesystem
 
 [EN] An example of application of the `std::filesystem` library.
 
+futures
+-------
+
+[PL] Przykład użycia `std::future` i wątków. Porównaj z przykładem `promise and future`.
+
+[EN] An example of usage of `std::future` and threads. Compare with the example `promise and future`.
+
 hashing
 -------
 [PL] Przykłady haszowania.
@@ -100,9 +107,9 @@ optional
 
 promise and future
 ------------------
-[PL] Przykład użycia obietnicy (`std::promise`) i przyszłości (`std::future`).
+[PL] Przykład użycia obietnicy (`std::promise`) i przyszłości (`std::future`). Porównaj z przykładem `futures`.
 
-[EN] An example of an `std::promise` and an `std::future`.
+[EN] An example of an `std::promise` and an `std::future`. Compare with the example `futures`.
 
 ranges and views
 ----------------
